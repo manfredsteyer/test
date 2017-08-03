@@ -1,5 +1,5 @@
 {
-    "url": "http://localhost",
+    "url": "http://steyer-demo.azurewebsites.net",
     "server": {
         "host": "127.0.0.1",
         "port": process.env.PORT
