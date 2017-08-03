@@ -71,7 +71,7 @@ GhostServer.prototype.start = function (externalApp) {
         } else {
             self.httpServer = rootApp.listen(
                 process.env.PORT || config.get('server').port,
-                config.get('server').host
+                'localhost' //config.get('server').host
             );
         }
 
