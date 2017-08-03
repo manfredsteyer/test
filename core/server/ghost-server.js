@@ -70,7 +70,7 @@ GhostServer.prototype.start = function (externalApp) {
             config.set('server:socket', socketValues);
         } else {
             self.httpServer = rootApp.listen(
-                config.get('server').port,
+                process.env.PORT || config.get('server').port,
                 config.get('server').host
             );
         }
