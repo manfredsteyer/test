@@ -2,7 +2,7 @@
     "url": "http://steyer-demo.azurewebsites.net",
     "server": {
         "host": "127.0.0.1",
-        "port": "8080"
+        "port": "process.env.PORT"
     },
     "privacy": false,
     "useMinFiles": true,
