@@ -7,6 +7,8 @@ var startTime = Date.now(),
 
 debug('First requires...');
 
+console.log('port', process.env.PORT);
+
 ghost = require('./core');
 
 debug('Required ghost');
